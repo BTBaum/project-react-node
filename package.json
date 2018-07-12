@@ -1,0 +1,22 @@
+{
+  "name": "nowtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix ./pricing-service && npm start --prefix ./vehicle-service && npm start --prefix ./subscription-service",
+    "dev": "micro-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "micro-cors": "^0.1.0",
+    "micro-ex-router": "^1.5.4",
+    "micro-proxy": "^1.1.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}

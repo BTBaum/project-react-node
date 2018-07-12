@@ -1,0 +1,9 @@
+{
+  "rules": [
+    { "pathname": "/pricing", "method": ["GET"], "dest": "http://localhost:3001"},
+    { "pathname": "/subscription", "method": ["GET", "POST"], "dest": "http://localhost:3002"},
+    { "pathname": "/vehicles", "method": ["GET"], "dest": "http://localhost:3003"},
+    { "pathname": "/**", "method": ["GET", "POST"], "dest": "http://localhost:3000"}
+  ]
+}
+
